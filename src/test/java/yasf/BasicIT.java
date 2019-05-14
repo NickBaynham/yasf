@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.Test;
 
-public class BasicTest {
+public class BasicIT extends DriverBase {
 
     private static final String BROWSER = "firefox";
     private ExpectedCondition<Boolean> pageTitleStartsWith(final
@@ -23,18 +23,7 @@ public class BasicTest {
     private void googleExampleThatSearchesFor(final
                                               String searchString) {
 
-        WebDriver driver = null;
-        if (BROWSER.equalsIgnoreCase("firefox")) {
-            System.setProperty("webdriver.gecko.driver", "resources/geckodriver17.exe");
-            DesiredCapabilities dc = new DesiredCapabilities();
-            dc.setCapability("marionette", false);
-            FirefoxOptions opt = new FirefoxOptions();
-            opt.merge(dc);
-            driver =  new FirefoxDriver(opt);
-        } else {
-             System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
-             driver = new ChromeDriver();
-        }
+        WebDriver driver = DriverBase.getDriver(BROWSER);
 
         driver.get("http://www.google.com");
 
@@ -52,7 +41,6 @@ public class BasicTest {
 
         System.out.println("Page title is: " + driver.getTitle());
 
-        driver.quit();
     }
 
     @Test
