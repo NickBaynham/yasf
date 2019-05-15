@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="13646" started-at="2019-05-14T23:38:45Z" finished-at="2019-05-14T23:38:59Z">
+  <suite name="Surefire suite" duration-ms="7673" started-at="2019-05-15T00:18:31Z" finished-at="2019-05-15T00:18:38Z">
     <groups>
     </groups>
-    <test name="Surefire test" duration-ms="13646" started-at="2019-05-14T23:38:45Z" finished-at="2019-05-14T23:38:59Z">
+    <test name="Surefire test" duration-ms="7673" started-at="2019-05-15T00:18:31Z" finished-at="2019-05-15T00:18:38Z">
       <class name="yasf.BasicIT">
-        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:yasf.BasicIT@3cbbc1e0]" name="instantiateDriverObject" is-config="true" duration-ms="11" started-at="2019-05-14T23:38:45Z" finished-at="2019-05-14T23:38:45Z">
+        <test-method status="PASS" signature="instantiateDriverObject()[pri:0, instance:yasf.BasicIT@6df97b55]" name="instantiateDriverObject" is-config="true" duration-ms="9" started-at="2019-05-15T00:18:31Z" finished-at="2019-05-15T00:18:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instantiateDriverObject -->
-        <test-method status="PASS" signature="googleMilkExample()[pri:0, instance:yasf.BasicIT@3cbbc1e0]" name="googleMilkExample" duration-ms="13524" started-at="2019-05-14T23:38:45Z" finished-at="2019-05-14T23:38:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- googleMilkExample -->
-        <test-method status="PASS" signature="googleCheeseExample()[pri:0, instance:yasf.BasicIT@3cbbc1e0]" name="googleCheeseExample" duration-ms="13461" started-at="2019-05-14T23:38:45Z" finished-at="2019-05-14T23:38:58Z">
+        <test-method status="PASS" signature="googleCheeseExample()[pri:0, instance:yasf.BasicIT@6df97b55]" name="googleCheeseExample" duration-ms="7575" started-at="2019-05-15T00:18:31Z" finished-at="2019-05-15T00:18:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- googleCheeseExample -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:yasf.BasicIT@3cbbc1e0]" name="clearCookies" is-config="true" duration-ms="82" started-at="2019-05-14T23:38:58Z" finished-at="2019-05-14T23:38:59Z">
+        <test-method status="PASS" signature="googleMilkExample()[pri:0, instance:yasf.BasicIT@6df97b55]" name="googleMilkExample" duration-ms="7476" started-at="2019-05-15T00:18:31Z" finished-at="2019-05-15T00:18:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleMilkExample -->
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:yasf.BasicIT@6df97b55]" name="clearCookies" is-config="true" duration-ms="111" started-at="2019-05-15T00:18:38Z" finished-at="2019-05-15T00:18:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="clearCookies()[pri:0, instance:yasf.BasicIT@3cbbc1e0]" name="clearCookies" is-config="true" duration-ms="106" started-at="2019-05-14T23:38:58Z" finished-at="2019-05-14T23:38:59Z">
+        <test-method status="PASS" signature="clearCookies()[pri:0, instance:yasf.BasicIT@6df97b55]" name="clearCookies" is-config="true" duration-ms="82" started-at="2019-05-15T00:18:38Z" finished-at="2019-05-15T00:18:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clearCookies -->
-        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:yasf.BasicIT@3cbbc1e0]" name="closeDriverObjects" is-config="true" duration-ms="1593" started-at="2019-05-14T23:38:59Z" finished-at="2019-05-14T23:39:00Z">
+        <test-method status="PASS" signature="closeDriverObjects()[pri:0, instance:yasf.BasicIT@6df97b55]" name="closeDriverObjects" is-config="true" duration-ms="2932" started-at="2019-05-15T00:18:38Z" finished-at="2019-05-15T00:18:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriverObjects -->
