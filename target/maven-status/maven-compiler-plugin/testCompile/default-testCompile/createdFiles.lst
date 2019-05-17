@@ -1,12 +1,12 @@
 yasf\DriverBase$1.class
-yasf\config\DriverSetup.class
 yasf\config\DriverType$1.class
 yasf\config\DriverType$2.class
-yasf\DriverBase.class
-yasf\config\DriverType$4.class
 yasf\config\DriverFactory.class
 yasf\config\DriverType$6.class
 yasf\config\DriverType$3.class
 yasf\BasicIT.class
+yasf\config\DriverSetup.class
+yasf\DriverBase.class
+yasf\config\DriverType$4.class
 yasf\config\DriverType.class
 yasf\config\DriverType$5.class

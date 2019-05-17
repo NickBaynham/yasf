@@ -2,13 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="307b2688-a87c-4639-94ba-d948f427caa0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/yasf/config/DriverSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/yasf/config/DriverType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/RepositoryMap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/yasf/BasicIT.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/yasf/BasicIT.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/yasf/DriverBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/yasf/DriverBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/yasf/DriverFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/yasf/config/DriverFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/Surefire suite/Surefire test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-yasf.BasicIT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/junitreports/TEST-yasf.BasicIT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/Surefire test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/Surefire suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/yasf.BasicIT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DriverFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DriverFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/yasf/config/DriverFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+            <state relative-caret-position="329">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,8 +116,17 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+            <state relative-caret-position="814">
+              <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RepositoryMap.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/RepositoryMap.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
             </state>
           </provider>
         </entry>
@@ -122,10 +160,11 @@
         <option value="$PROJECT_DIR$/src/java/yasf/DriverFactory.java" />
         <option value="$PROJECT_DIR$/src/java/yasf/BasicTest.java" />
         <option value="$PROJECT_DIR$/src/java/yasf/BasicIT.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/yasf/config/DriverSetup.java" />
         <option value="$PROJECT_DIR$/src/test/java/yasf/config/DriverType.java" />
         <option value="$PROJECT_DIR$/src/test/java/yasf/config/DriverFactory.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/RepositoryMap.xml" />
       </list>
     </option>
   </component>
@@ -179,24 +218,7 @@
               <item name="yasf" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YASF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yasf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yasf" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="YASF" type="b2602c69:ProjectViewProjectNode" />
-              <item name="yasf" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yasf" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -470,18 +492,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1549" height="837" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32963374" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32963374" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32944608" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32963374" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4329446" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4329446" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31790745" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31790745" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -546,13 +567,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/yasf/BasicIT.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="655">
@@ -599,11 +613,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/yasf/config/DriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state relative-caret-position="329">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/RepositoryMap.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="85" selection-start-line="6" selection-start-column="85" selection-end-line="6" selection-end-column="85" />
         </state>
       </provider>
     </entry>

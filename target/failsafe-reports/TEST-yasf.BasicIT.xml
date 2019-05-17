@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="yasf.BasicIT" time="11.305" tests="2" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="yasf.BasicIT" time="16.288" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
-    <property name="file.encoding.pkg" value="sun.io"/>
     <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\nbaynham\Documents\GitHub\yasf\src\test\resources\selenium_standalone_binaries\windows\googlechrome\64bit\chromedriver.exe"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.class.path" value="C:\Users\nbaynham\Documents\GitHub\yasf\target\test-classes;C:\Users\nbaynham\Documents\GitHub\yasf\target\yet-another-selenium-framework-DEV-SNAPSHOT.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\nbaynham\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\nbaynham\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nbaynham\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\nbaynham\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nbaynham\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\nbaynham\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\nbaynham\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nbaynham\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nbaynham\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nbaynham\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nbaynham\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nbaynham\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\nbaynham\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nbaynham\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\nbaynham\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\nbaynham\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\nbaynham\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nbaynham\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nbaynham\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\nbaynham\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
+    <property name="webdriver.ie.driver" value="C:\Users\nbaynham\Documents\GitHub\yasf\src\test\resources\selenium_standalone_binaries\windows\internetexplorer\64bit\IEDriverServer.exe"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="user.timezone" value=""/>
@@ -18,7 +20,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Java\jdk\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\nbaynham\AppData\Local\Temp\surefire7096270467643702948\surefirebooter6319605622485250921.jar C:\Users\nbaynham\AppData\Local\Temp\surefire7096270467643702948 2019-05-14T20-18-29_716-jvmRun1 surefire4658407755865596448tmp surefire_04326956592623484814tmp"/>
+    <property name="sun.java.command" value="C:\Users\nbaynham\AppData\Local\Temp\surefire2122082075105481780\surefirebooter1866694089391540301.jar C:\Users\nbaynham\AppData\Local\Temp\surefire2122082075105481780 2019-05-17T14-56-43_834-jvmRun1 surefire2551711176544482275tmp surefire_01766886810255138856tmp"/>
     <property name="surefire.test.class.path" value="C:\Users\nbaynham\Documents\GitHub\yasf\target\test-classes;C:\Users\nbaynham\Documents\GitHub\yasf\target\yet-another-selenium-framework-DEV-SNAPSHOT.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-java\3.12.0\selenium-java-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-api\3.12.0\selenium-api-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.12.0\selenium-chrome-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.12.0\selenium-edge-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.12.0\selenium-firefox-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.12.0\selenium-ie-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.12.0\selenium-opera-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.12.0\selenium-remote-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.12.0\selenium-safari-driver-3.12.0.jar;C:\Users\nbaynham\.m2\repository\org\seleniumhq\selenium\selenium-support\3.12.0\selenium-support-3.12.0.jar;C:\Users\nbaynham\.m2\repository\net\bytebuddy\byte-buddy\1.8.3\byte-buddy-1.8.3.jar;C:\Users\nbaynham\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\nbaynham\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\nbaynham\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nbaynham\.m2\repository\com\google\code\gson\gson\2.8.2\gson-2.8.2.jar;C:\Users\nbaynham\.m2\repository\com\google\guava\guava\23.6-jre\guava-23.6-jre.jar;C:\Users\nbaynham\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\nbaynham\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\nbaynham\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\nbaynham\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\nbaynham\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\nbaynham\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\nbaynham\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\nbaynham\.m2\repository\com\squareup\okhttp3\okhttp\3.9.1\okhttp-3.9.1.jar;C:\Users\nbaynham\.m2\repository\com\squareup\okio\okio\1.13.0\okio-1.13.0.jar;C:\Users\nbaynham\.m2\repository\org\testng\testng\6.14.3\testng-6.14.3.jar;C:\Users\nbaynham\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\nbaynham\.m2\repository\org\apache-extras\beanshell\bsh\2.0b6\bsh-2.0b6.jar;C:\Users\nbaynham\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\nbaynham\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\nbaynham"/>
@@ -31,18 +33,20 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\nbaynham\AppData\Local\Temp\surefire7096270467643702948\surefirebooter6319605622485250921.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\nbaynham\AppData\Local\Temp\surefire2122082075105481780\surefirebooter1866694089391540301.jar"/>
     <property name="sun.boot.class.path" value="C:\Java\jdk\jre\lib\resources.jar;C:\Java\jdk\jre\lib\rt.jar;C:\Java\jdk\jre\lib\sunrsasign.jar;C:\Java\jdk\jre\lib\jsse.jar;C:\Java\jdk\jre\lib\jce.jar;C:\Java\jdk\jre\lib\charsets.jar;C:\Java\jdk\jre\lib\jfr.jar;C:\Java\jdk\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="1.8.0_151-b12"/>
+    <property name="webdriver.edge.driver" value="C:\Users\nbaynham\Documents\GitHub\yasf\src\test\resources\selenium_standalone_binaries\windows\edge\64bit\MicrosoftWebDriver.exe"/>
     <property name="user.name" value="nbaynham"/>
     <property name="path.separator" value=";"/>
+    <property name="webdriver.opera.driver" value="C:\Users\nbaynham\Documents\GitHub\yasf\src\test\resources\selenium_standalone_binaries\windows\operachromium\64bit\operadriver.exe"/>
     <property name="os.version" value="10.0"/>
     <property name="java.endorsed.dirs" value="C:\Java\jdk\jre\lib\endorsed"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="browser" value="chrome"/>
+    <property name="browser" value="firefox"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="localRepository" value="C:\Users\nbaynham\.m2\repository"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
@@ -50,9 +54,10 @@
     <property name="java.version" value="1.8.0_151"/>
     <property name="user.dir" value="C:\Users\nbaynham\Documents\GitHub\yasf"/>
     <property name="os.arch" value="amd64"/>
-    <property name="threads" value="2"/>
+    <property name="webdriver.gecko.driver" value="C:\Users\nbaynham\Documents\GitHub\yasf\src\test\resources\selenium_standalone_binaries\windows\marionette\64bit\geckodriver.exe"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="threads-2" value="true"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="java.library.path" value="C:\Java\jdk\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\maven\bin;C:\Git\cmd;C:\Git\mingw64\bin;C:\Git\usr\bin;C:\Program Files\nodejs\;C:\java\jdk\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Users\nbaynham\AppData\Local\Programs\Python\Python37\Scripts\;C:\Users\nbaynham\AppData\Local\Programs\Python\Python37\;C:\Users\nbaynham\AppData\Local\Microsoft\WindowsApps;C:\Users\nbaynham\AppData\Local\GitHubDesktop\bin;C:\Users\nbaynham\AppData\Roaming\npm;C:\Users\nbaynham\AppData\Local\Programs\Fiddler;."/>
     <property name="java.vm.info" value="mixed mode"/>
@@ -62,6 +67,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="googleMilkExample" classname="yasf.BasicIT" time="7.478"/>
-  <testcase name="googleCheeseExample" classname="yasf.BasicIT" time="7.575"/>
+  <testcase name="googleCheeseExample" classname="yasf.BasicIT" time="11.224"/>
+  <testcase name="googleMilkExample" classname="yasf.BasicIT" time="3.307"/>
 </testsuite>
